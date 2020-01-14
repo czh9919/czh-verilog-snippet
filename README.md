@@ -25,4 +25,5 @@ default
 module
 assign
 generate
+localparam
 ```

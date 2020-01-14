@@ -19,6 +19,12 @@
 			"reg $0"
 		],
 		"description": "reg keywords"
+	},"LOCALPARAM": {
+		"prefix": "localparam",
+		"body": [
+			"localparam $0"
+		],
+		"description": "localparam keywords"
 	},
 	"ASSIGN": {
 		"prefix": "assign",

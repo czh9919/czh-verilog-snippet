@@ -2,7 +2,7 @@
 	"name": "czh-verilog-snippet",
 	"displayName": "czh's Verilog Snippet",
 	"description": "verilog snippet for my own use",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "czh",
 	"engines": {
 		"vscode": "^1.41.0"
