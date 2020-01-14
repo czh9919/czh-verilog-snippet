@@ -33,11 +33,17 @@
 		],
 		"description": "assign keywords"
 	},
+	"GENVAR": {
+		"prefix": "genvar",
+		"body": [
+			"genvar $0;"
+		],
+		"description": "genvar keywords"
+	},
 	"GENERATE": {
 		"prefix": "generate",
 		"body": [
 			"generate",
-				"\tgenvar $1",
 				"\t",
 			"endgenerate"
 		],

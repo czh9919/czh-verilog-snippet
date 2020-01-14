@@ -25,3 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - add localparam keyword.
 - Fix bugs, change the changlog data and version.
+
+## [0.0.5] - 2020-01-14
+### Added
+- add genvar keyword.
+- Fix bugs
