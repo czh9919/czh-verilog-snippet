@@ -24,4 +24,5 @@ always @ case
 default
 module
 assign
+generate
 ```

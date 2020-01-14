@@ -27,10 +27,20 @@
 		],
 		"description": "assign keywords"
 	},
+	"GENERATE": {
+		"prefix": "generate",
+		"body": [
+			"generate",
+				"\tgenvar $1",
+				"\t",
+			"endgenerate"
+		],
+		"description": "generate keywords"
+	},
 	"INPUT": {
 		"prefix": "input",
 		"body": [
-			"input ${1|wire,reg|} $0"
+			"input  ${1|wire,reg|} $0"
 		],
 		"description": "INPUT statement"
 	},
@@ -139,8 +149,8 @@
 		"body": [
 			"module $TM_FILENAME_BASE $1(",
 				"\t${0}",
-			"); //$TM_FILENAME_BASE",
-			"\nendmodule"
+			");",
+			"\nendmodule //$TM_FILENAME_BASE"
 
 		]
 	}

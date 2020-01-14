@@ -14,3 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.2] - 2014-07-10
 ### Added
 - Fix bugs, add end statement after always statement.
+
+## [0.0.2] - 2014-07-10
+### Added
+- add generate keyword.
+- Fix bugs, change the comments location in the module keyword.
+- add a space after input statement.
