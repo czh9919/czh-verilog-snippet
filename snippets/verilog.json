@@ -1,0 +1,147 @@
+{
+	"PARAMETER": {
+		"prefix": "parameter",
+		"body": [
+			"parameter $0"
+		],
+		"description": "parameter keywords"
+	},
+	"WIRE": {
+		"prefix": "wire",
+		"body": [
+			"wire $0"
+		],
+		"description": "wire keywords"
+	},
+	"REG": {
+		"prefix": "reg",
+		"body": [
+			"reg $0"
+		],
+		"description": "reg keywords"
+	},
+	"ASSIGN": {
+		"prefix": "assign",
+		"body": [
+			"assign $0;"
+		],
+		"description": "assign keywords"
+	},
+	"INPUT": {
+		"prefix": "input",
+		"body": [
+			"input ${1|wire,reg|} $0"
+		],
+		"description": "INPUT statement"
+	},
+	"OUTPUT": {
+		"prefix": "output",
+		"body": [
+			"output ${1|wire,reg|} $0"
+		],
+		"description": "output statement"
+	},
+	"BEGIN": {
+		"prefix": "begin",
+		"body": [
+			"begin",
+				"\t$0",
+			"end"
+		],
+		"description": "begin statement"
+	},
+	"IF": {
+		"prefix": "if",
+		"body": [
+			"if ($1) begin",
+				"\t$0",
+			"end"
+		],
+		"description": "if statement"
+	},
+	"IFELSE": {
+		"prefix": "ifelse",
+		"body": [
+			"if($1) begin",
+				"\t$2",
+			"end",
+			"else $0"
+		],
+		"description": "if else statement"
+	},"ELSEIF": {
+		"prefix": "elif",
+		"body": [
+			"else if($1) begin",
+				"\t$0",
+			"end"
+		],
+		"description": "else if statement"
+	},
+	"ELSE": {
+		"prefix": "else",
+		"body": [
+			"else",
+				"\t$0"
+		],
+		"description": "else statement"
+	},
+	"ELSEBEGIN": {
+		"prefix": "elseBegin",
+		"body": [
+			"else begin",
+				"\t$0",
+			"end"
+		],
+		"description": "else begin statement"
+	},
+	"case": {
+		"prefix": "case",
+		"body": [
+    			"case $1",
+					"\t$0",
+    			"endcase"
+		
+		],
+		"description": "case statement"
+	},
+	"alwayscase": {
+		"prefix": "always @ case",
+		"body": [
+			"always @(${1:posedge clk or negedge rstn}) begin",
+    			"\tcase $2",
+					"\t\t$0",
+				"\tendcase",
+			"end"
+		
+		],
+		"description": "always case statement"
+	},
+	"DEFAULT": {
+		"prefix": "default",
+		"body": [
+			"default $1",
+				"\t$0"
+		
+		],
+		"description": "always case statement"
+	},
+	"always": {
+		"prefix": "always",
+		"body": [
+			"always @(${1|posedge clk or negedge rstn,posedge clk,*|}) begin",
+				"\t$0",
+			"end"
+		],
+		"description": "always statement"
+	},
+	"MODULE":{
+		"prefix": "module",
+		"body": [
+			"module $TM_FILENAME_BASE $1(",
+				"\t${0}",
+			"); //$TM_FILENAME_BASE",
+			"\nendmodule"
+
+		]
+	}
+}
