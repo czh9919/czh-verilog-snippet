@@ -2,6 +2,10 @@
 
 This extension for Visual Studio Code adds snippets for Verilog.
 
+## Repositories
+
+    https://github.com/czh9919/czh-verilog-snippet
+
 ## Usage
 
 Type a part of keywords in the snippet and press enter. Such as:

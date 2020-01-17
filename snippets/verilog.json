@@ -163,7 +163,6 @@
 				"\t${0}",
 			");",
 			"\nendmodule //$TM_FILENAME_BASE"
-
 		]
 	}
 }
