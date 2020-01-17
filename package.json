@@ -2,14 +2,18 @@
 	"name": "czh-verilog-snippet",
 	"displayName": "czh's Verilog Snippet",
 	"description": "verilog snippet for my own use",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "czh",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/czh9919/czh-verilog-snippet"
+    },
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],

@@ -30,3 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - add genvar keyword.
 - Fix bugs
+
+## [0.0.6] - 2020-01-17
+### Added
+- Created a remote repository
