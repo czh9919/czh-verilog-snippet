@@ -2,18 +2,18 @@
 	"name": "czh-verilog-snippet",
 	"displayName": "czh's Verilog Snippet",
 	"description": "verilog snippet for my own use",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "czh",
 	"engines": {
-		"vscode": "^1.41.0"
+		"vscode": "^1.43.0"
 	},
 	"categories": [
 		"Snippets"
 	],
 	"repository": {
-        "type": "git",
-        "url": "https://github.com/czh9919/czh-verilog-snippet"
-    },
+		"type": "git",
+		"url": "https://github.com/czh9919/czh-verilog-snippet"
+	},
 	"activationEvents": [
 		"onCommand:extension.helloWorld"
 	],
@@ -21,10 +21,10 @@
 	"contributes": {
 		"snippets": [
 			{
-			  "language": "verilog",
-			  "path": "./snippets/verilog.json"
+				"language": "Verilog",
+				"path": "./snippets/verilog.json"
 			}
-		  ]
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -36,12 +36,15 @@
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.7",
-		"@types/node": "^12.11.7",
-		"@types/vscode": "^1.41.0",
+		"@types/node": "^12.12.32",
+		"@types/vscode": "^1.43.0",
 		"glob": "^7.1.5",
-		"mocha": "^6.2.2",
-		"typescript": "^3.6.4",
+		"mocha": "^6.2.3",
 		"tslint": "^5.20.0",
+		"typescript": "^3.8.3",
 		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"minimist": "^1.2.5"
 	}
 }
