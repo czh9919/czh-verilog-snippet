@@ -129,7 +129,7 @@
 	"alwayscase": {
 		"prefix": "always @ case",
 		"body": [
-			"always @(${1:posedge clk or negedge rstn}) begin",
+			"always @(${1|posedge clk or negedge rstn,negedge clk or posedge rstn ,*|}) begin",
     			"\tcase $2",
 					"\t\t$0",
 				"\tendcase",
@@ -150,7 +150,7 @@
 	"always": {
 		"prefix": "always",
 		"body": [
-			"always @(${1|posedge clk or negedge rstn,posedge clk,*|}) begin",
+			"always @(${1|posedge clk or negedge rstn,posedge clk,negedge clk,negedge clk or posedge rstn, *|}) begin",
 				"\t$0",
 			"end"
 		],

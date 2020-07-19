@@ -43,3 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.8] - 2020-04-18
 ### Added
 - Bug fix
+
+## [0.0.9] - 2020-07-19
+### Added
+- Bug fix
+- Change keywords
