@@ -1,9 +1,9 @@
 {
     "name": "czh-verilog-snippet",
-    "displayName": "czh's Verilog Snippet",
-    "description": "verilog snippet for my own use",
+    "displayName": "Verilog Snippet",
+    "description": "A snippet for verilog",
     "icon": "image/logo.png",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "czh",
     "engines": {
         "vscode": "^1.47.0"
