@@ -1,50 +1,49 @@
 {
-	"name": "czh-verilog-snippet",
-	"displayName": "czh's Verilog Snippet",
-	"description": "verilog snippet for my own use",
-	"version": "0.0.9",
-	"publisher": "czh",
-	"engines": {
-		"vscode": "^1.47.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/czh9919/czh-verilog-snippet"
-	},
-	"activationEvents": [
-		"onCommand:extension.helloWorld"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"snippets": [
-			{
-				"language": "verilog",
-				"path": "./snippets/verilog.json"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile",
-		"test": "node ./out/test/runTest.js"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.3",
-		"@types/mocha": "^5.2.7",
-		"@types/node": "^12.12.50",
-		"@types/vscode": "^1.47.0",
-		"glob": "^7.1.5",
-		"mocha": "^6.2.3",
-		"tslint": "^5.20.0",
-		"typescript": "^3.9.7",
-		"vscode-test": "^1.4.0"
-	},
-	"dependencies": {
-		"minimist": "^1.2.5"
-	}
+    "name": "czh-verilog-snippet",
+    "displayName": "czh's Verilog Snippet",
+    "description": "verilog snippet for my own use",
+    "icon": "https://github.com/czh9919/czh-verilog-snippet/tree/master/image/logo.png",
+    "version": "0.1.0",
+    "publisher": "czh",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/czh9919/czh-verilog-snippet"
+    },
+    "activationEvents": [
+        "onCommand:extension.helloWorld"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "snippets": [{
+            "language": "verilog",
+            "path": "./snippets/verilog.json"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.3",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.12.50",
+        "@types/vscode": "^1.47.0",
+        "glob": "^7.1.5",
+        "mocha": "^6.2.3",
+        "tslint": "^5.20.0",
+        "typescript": "^3.9.7",
+        "vscode-test": "^1.4.0"
+    },
+    "dependencies": {
+        "minimist": "^1.2.5"
+    }
 }
