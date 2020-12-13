@@ -3,7 +3,7 @@
     "displayName": "Verilog Snippet",
     "description": "A snippet for verilog",
     "icon": "image/logo.png",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "czh",
     "engines": {
         "vscode": "^1.47.0"
@@ -16,10 +16,22 @@
         "url": "https://github.com/czh9919/czh-verilog-snippet"
     },
     "activationEvents": [
-        "onCommand:extension.helloWorld"
+        "onLanguage:verilog"
     ],
     "main": "./out/extension.js",
     "contributes": {
+        "languages": [{
+            "id": "verilog",
+            "aliases": [
+                "Verilog",
+                "verilog"
+            ],
+            "extensions": [
+                ".v",
+                ".vh",
+                ".vl"
+            ]
+        }],
         "snippets": [{
             "language": "verilog",
             "path": "./snippets/verilog.json"

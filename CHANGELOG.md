@@ -56,3 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1] - 2020-08-18
 ### Added
 - Change display name
+
+## [0.1.2] - 2020-12-13
+### Fixed
+- "contributes.czh-verilog-snippet.language" 中包含未知语言。
