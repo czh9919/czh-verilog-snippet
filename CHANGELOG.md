@@ -60,3 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.2] - 2020-12-13
 ### Fixed
 - "contributes.czh-verilog-snippet.language" 中包含未知语言。
+
+## [0.1.3] - 2021-3-31
+### Fixed
+- Bug fix
